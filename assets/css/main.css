@@ -76,6 +76,9 @@ i:hover {
 	font-size: 25px;
 	
 }
+.blueback{
+	color: white;
+}
 
 /* Basic */
 
@@ -1898,8 +1901,8 @@ i:hover {
 		button:active,
 		.button:active {
 			background-color: rgba(73, 252, 212, 0.25);
-			box-shadow: inset 0 0 0 2px #2ee4bb;
-			color: #2ee4bb !important;
+			box-shadow: inset 0 0 0 2px #4690ff;
+			color: #4690ff !important;
 		}
 
 		input[type="submit"].small,
@@ -1985,7 +1988,7 @@ i:hover {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #44f2cb;
+				background-color: #7c7c7c;
 			}
 
 		@media screen and (max-width: 736px) {
@@ -2141,7 +2144,7 @@ i:hover {
 		input[type="url"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #2ee4bb;
+			border-color: #4690ff;
 		}
 
 	label {
@@ -2250,15 +2253,15 @@ i:hover {
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
 			content: '\f00c';
-			background-color: #49fcd4;
-			border-color: #49fcd4;
+			background-color: #4690ff;
+			border-color: #4690ff;
 			color: #ffffff;
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #49fcd4;
-			box-shadow: 0 0 0 1px #49fcd4;
+			border-color: #4690ff;
+			box-shadow: 0 0 0 1px #4690ff;
 		}
 
 	input[type="checkbox"] + label:before {
